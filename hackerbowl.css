@@ -1,3 +1,21 @@
+.image1 {
+    background-image: url("Aggie-Hack.jpg");
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    background-image: url("Aggie-Hack-2.JPG");
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    font-size: 22px;
+}
+
+.front-page-register-button {
+    text-align: center;
+}
+
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
