@@ -1,3 +1,7 @@
+.sponsor-logo:hover {
+    opacity: .75;
+}
+
 .image1 {
     background-image: url("Aggie-Hack.jpg");
     background-repeat: no-repeat;
