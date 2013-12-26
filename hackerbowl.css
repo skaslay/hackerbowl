@@ -1,3 +1,7 @@
+.sponsor-logo {
+    vertical-align: middle;
+}
+
 .sponsor-logo:hover {
     opacity: .75;
 }
@@ -13,7 +17,7 @@
 }
 
 .nav-bar {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .front-page-register-button {
