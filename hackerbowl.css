@@ -32,6 +32,11 @@
     text-align: center;
 }
 
+#register-button {
+    background: #4d85d1;
+    color: white;
+}
+
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
