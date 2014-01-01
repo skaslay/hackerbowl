@@ -11,6 +11,7 @@
 
 .title-link:hover { 
     text-decoration: none;
+    color: rgb(142, 142, 214);
 }
 
 p {
@@ -23,6 +24,14 @@ p {
 
 .twitter-follow-button {
     margin-top: 10px;
+}
+
+.sponsor-post { 
+    margin-top: 20px;
+}
+
+.sponsor-logo-grid { 
+    text-align: center;
 }
 
 .sponsor-logo {
@@ -48,6 +57,11 @@ p {
     letter-spacing: normal;
 }
 
+.nav-bar > ul > li > a:hover{ 
+    text-decoration: none;
+    color: rgb(142, 142, 214);
+}
+
 .front-page-register-button {
     text-align: center;
 }
@@ -55,6 +69,12 @@ p {
 #register-button {
     background: #4d85d1;
     color: white;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+#register-button:hover { 
+    text-decoration: none;
+    opacity: .75;
 }
 
 body,
@@ -150,6 +170,7 @@ a:focus {
 
 .post {
     padding-bottom: 2em;
+
 }
 .post-title {
     font-size: 2em;
