@@ -36,6 +36,8 @@ p {
 
 .sponsor-logo {
     vertical-align: middle;
+    padding-top:15px;
+    padding-bottom: 15px;
 }
 
 .sponsor-logo:hover {
