@@ -30,15 +30,49 @@ p {
     margin-top: 20px;
 }
 
+.king-sponsor-row {
+    padding-bottom:30px;
+}
+
 .sponsor-logo-grid { 
     text-align: center;
+}
+
+.sponsor-box {
+    vertical-align: middle;
 }
 
 .sponsor-logo {
     vertical-align: middle;
     padding-top:15px;
     padding-bottom: 15px;
+    width: 100%;
 }
+
+ @media (min-width: 767px) {
+    .sponsor-logo  {
+       margin-top: -100px;
+       margin-bottom: -100px;
+       top: 50%;
+   }
+   .sponsor-box {
+      height: 200px;
+      padding-bottom: 30px;
+   }
+}
+ @media (max-width: 767px) {
+    .sponsor-logo  {
+       margin-top: 30px;
+       height: auto;
+       top: 0;
+   }
+   .sponsor-box {
+        height: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+   }
+}
+
 
 .sponsor-logo:hover {
     opacity: .75;
